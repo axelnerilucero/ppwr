@@ -46,9 +46,21 @@ table#acerca{
 }
 img#carrito{
 	height: 70px;
-	margin: -60px 150px 0px 1450px;
+	margin: -60px 150px 0px 1430px;
 }
 img#perfil{
 	width: 60px;
 	margin: -65px 50px 50px 1570px;
+}
+a{
+	text-decoration: none;
+	color: #b4aead;
+	font-size: 20px;
+	font-family: monospace;
+}
+a:hover{
+	color: #fe502d;
+}
+img#carrito:hover{
+	height: 80px;
 }
