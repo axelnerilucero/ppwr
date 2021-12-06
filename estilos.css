@@ -1,0 +1,13 @@
+div#fondo{
+	background-color:  black;
+	width: 1500px;
+	height: 3000px;
+	margin: auto ; <!---->
+}
+div#barraup{
+	background-color:  #fe502d;
+	width: 1500px;
+	height: 150px;
+	margin: auto ; <!---->
+}
+
