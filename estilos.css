@@ -1,13 +1,54 @@
 div#fondo{
-	background-color:  black;
-	width: 1500px;
+	background-color:  gainsboro;
+	width: 1700px;
 	height: 3000px;
 	margin: auto ; <!---->
 }
 div#barraup{
-	background-color:  #fe502d;
-	width: 1500px;
+	background-color:  black;
+	width: 1700px;
 	height: 150px;
 	margin: auto ; <!---->
 }
-
+img#logo{
+	width: 150px;
+	margin: 1px 0px 1px 1px;
+}
+table#inicio{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -100px 1300px 0px 200px;
+}
+table#menu{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 450px;
+}
+table#galeria{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 700px;
+}
+table#promociones{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 950px;
+}
+table#acerca{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 1200px;
+}
+img#carrito{
+	height: 70px;
+	margin: -60px 150px 0px 1450px;
+}
+img#perfil{
+	width: 60px;
+	margin: -65px 50px 50px 1570px;
+}
