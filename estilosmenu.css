@@ -1,0 +1,78 @@
+div#fondo{
+	background-color:  gainsboro;
+	width: 1700px;
+	height: 3000px;
+	margin: auto ; <!---->
+}
+div#barraup{
+	background-color:  black;
+	width: 1700px;
+	height: 150px;
+	margin: auto ; <!---->
+}
+img#logo{
+	width: 150px;
+	margin: 1px 0px 1px 1px;
+}
+table#inicio{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -100px 1300px 0px 200px;
+}
+table#menu{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 450px;
+}
+table#galeria{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 700px;
+}
+table#promociones{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 950px;
+}
+table#acerca{
+	width: 250px;
+	height: 40px;
+	color: white;
+	margin: -40px 0px 0px 1200px;
+}
+a{
+	text-decoration: none;
+	color: #b4aead;
+	font-size: 25px;
+	font-family: monospace;
+}
+a:hover{
+	color: #fe502d;
+}
+
+table#contactanos{
+	width: 250;
+	height: 40px;
+	background-color: black;
+	margin: -40px 0px 0px 1450px;
+}
+table#contactanos:hover{
+	width: 250;
+	height: 40px;
+	background-color: #fe502d;
+	margin: -40px 0px 0px 1450px;
+	border-radius: 10px 10px 10px 10px;
+}
+a#con:hover{
+	color: white;
+}
+div#fondo2{
+	background-color: whitesmoke;
+	width: 1690px;
+	height: 3000px;
+	margin: auto ; <!---->
+}
