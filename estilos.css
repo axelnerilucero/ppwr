@@ -44,23 +44,67 @@ table#acerca{
 	color: white;
 	margin: -40px 0px 0px 1200px;
 }
-img#carrito{
-	height: 70px;
-	margin: -60px 150px 0px 1430px;
-}
-img#perfil{
-	width: 60px;
-	margin: -65px 50px 50px 1570px;
-}
 a{
 	text-decoration: none;
 	color: #b4aead;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: monospace;
 }
 a:hover{
 	color: #fe502d;
 }
-img#carrito:hover{
-	height: 80px;
+
+table#contactanos{
+	width: 250;
+	height: 40px;
+	background-color: black;
+	margin: -40px 0px 0px 1450px;
+}
+table#contactanos:hover{
+	width: 250;
+	height: 40px;
+	background-color: #fe502d;
+	margin: -40px 0px 0px 1450px;
+	border-radius: 10px 10px 10px 10px;
+}
+a#con:hover{
+	color: white;
+}
+div#fondo2{
+	background-color: whitesmoke;
+	width: 1690px;
+	height: 3000px;
+	margin: auto ; <!---->
+}
+p#quien{
+	font-size: 20px;
+	color: #fe502d;
+	font-weight: lighter;
+	margin: -330px 0px 0px 700px;
+}
+p#desc{
+	font-size: 20px;
+	color: black;
+	margin: 10px 430px 0px 430px;
+}
+p#desc2{
+	font-size: 20px;
+	color: black;
+	margin: 10px 430px 0px 430px;
+}
+img#carnita{
+	width: 300px;
+	height: 350px;
+	margin: 100px 0px 0px 50px;
+}
+img#oscar{
+	width: 300px;
+	height: 350px;
+	margin: -210px 50px 0px 1350px;
+}
+p#visitas{
+	font-size: 10px;
+	color: black;
+	font-weight: lighter;
+	margin: 10px 50px 0px 1350px;
 }
