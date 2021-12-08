@@ -26,6 +26,7 @@ table#menu{
 	color: white;
 	margin: -40px 0px 0px 450px;
 }
+
 table#galeria{
 	width: 250px;
 	height: 40px;
@@ -43,6 +44,12 @@ table#acerca{
 	height: 40px;
 	color: white;
 	margin: -40px 0px 0px 1200px;
+}
+a#menu{
+	text-decoration: none;
+	color: #fe502d;
+	font-size: 25px;
+	font-family: monospace;
 }
 a{
 	text-decoration: none;
@@ -75,4 +82,108 @@ div#fondo2{
 	width: 1690px;
 	height: 3000px;
 	margin: auto ; <!---->
+}
+h1#titulo{
+	font-size: 25px;
+	font-style: oblique;
+	color: #fe502d;
+	margin-left: 720px;
+}
+div#menucarne{
+	height: 620px;
+	width: 1690px;
+	margin: 0px 5px 0px 5px;
+}
+table#arrachera{
+	width: 367;
+	height: 200px;
+	margin: 50px 0px 0px 50px;
+}
+img#carne{
+	height: 200px;
+	width: 348px;
+
+}
+table#mignon{
+	width: 367;
+	height: 200px;
+	margin: -294px 0px 0px 457px;
+}
+table#chuleton{
+	width: 367;
+	height: 200px;
+	margin: -308px 0px 0px 864px;
+}
+table#solomillo{
+	width: 367;
+	height: 200px;
+	margin: -308px 0px 0px 1271px;
+}
+table#newyork{
+	width: 367;
+	height: 200px;
+	margin: 0px 0px 0px 50px;
+}
+table#porterhouse{
+	width: 367;
+	height: 200px;
+	margin: -308px 0px 0px 457px;
+}
+table#filete{
+	width: 367;
+	height: 200px;
+	margin: -308px 0px 0px 864px;
+}
+table#tbone{
+	width: 367;
+	height: 200px;
+	margin: -308px 0px 0px 1271px;
+}
+h2{
+	margin: 0px 100px 0px 100px;
+}
+p{
+
+}
+
+
+
+
+
+
+
+div#pie{
+	background-color: black;
+	width: 1690px;
+	height: 190px;
+	margin: 50px 5px 0px 5px;
+}
+table#primera{
+	height: 190px;
+	width: 563px;
+}
+table#segunda{
+	height: 190px;
+	width: 563px;
+	margin: -190px 0px 0px 563px;
+}
+table#tercera{
+	height: 190px;
+	width: 563px;
+	margin: -190px 0px 0px 1126px
+}
+p#t1{
+	font-size: 15px;
+	color: #fe502d;
+	margin: 5px 0px 0px 0px;
+}
+p#t2{
+	font-size: 15px;
+	color: #b4aead;
+}
+p#tt{
+	font-size: 25px;
+	color: #b4aead;
+	margin-top: 0px;
+	margin-bottom: 5px;
 }
