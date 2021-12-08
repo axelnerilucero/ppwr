@@ -1,7 +1,7 @@
 div#fondo{
 	background-color:  gainsboro;
 	width: 1700px;
-	height: 3000px;
+	height: 1750px;
 	margin: auto ; <!---->
 }
 div#barraup{
@@ -50,6 +50,12 @@ a{
 	font-size: 25px;
 	font-family: monospace;
 }
+a#inicio{
+	text-decoration: none;
+	color: #fe502d;
+	font-size: 25px;
+	font-family: monospace;
+}
 a:hover{
 	color: #fe502d;
 }
@@ -70,10 +76,11 @@ table#contactanos:hover{
 a#con:hover{
 	color: white;
 }
+
 div#fondo2{
 	background-color: whitesmoke;
 	width: 1690px;
-	height: 3000px;
+	height: 1450px;
 	margin: auto ; <!---->
 }
 p#quien{
@@ -100,7 +107,7 @@ img#carnita{
 img#oscar{
 	width: 300px;
 	height: 350px;
-	margin: -210px 50px 0px 1350px;
+	margin: -210px 50px 0px 1340px;
 }
 p#visitas{
 	font-size: 10px;
@@ -108,3 +115,119 @@ p#visitas{
 	font-weight: lighter;
 	margin: 10px 50px 0px 1350px;
 }
+p#nov{
+	font-size: 25px;
+	font-style: italic;
+	color: #fe502d;
+	font-weight: lighter;
+	margin: 10px 0px 0px 50px;
+}
+div#novedades{
+	height: 300px;
+	width: 1590px;
+	margin: 30px 50px 0px 50px;
+}
+table#amp{
+	width: 496px;
+	height: 220px;
+	background-color: #b4aead;
+	margin: 50px 0px 0px 0px;
+	border-radius: 20px 20px 20px 20px;
+}
+img#amplocal{
+	width: 255px;
+	height: 170px;
+	align-content: center;
+	margin: 0px 98px 0px 98px;
+}
+p#textoamp{
+	font-size: 12px;
+	color: black;
+	margin: 5px 0px 0px 15px;
+}
+table#noticia{
+	width: 496px;
+	height: 220px;
+	background-color: #b4aead;
+	margin: -220px 0px 0px 546px;
+	border-radius: 20px 20px 20px 20px;
+}
+table#noticia:hover{
+	background-color: #fe502d;
+	border-radius: 20px 20px 20px 20px;
+}
+a#textonoticia{
+	font-size: 24px;
+	color: black;
+	font-family: monospace;
+}
+a#textocombos{
+	font-size: 30px;
+	color: black;
+	font-family: monospace;
+	margin: auto;
+}
+table#nuevoscombos{
+	width: 496px;
+	height: 220px;
+	background-color: #b4aead;
+	margin: -220px 0px 0px 1092px;
+	border-radius: 20px 20px 20px 20px;
+}
+table#nuevoscombos:hover{
+	background-color: #fe502d;
+	border-radius: 20px 20px 20px 20px;
+}
+a#textocombos:hover{
+	font-size: 30px;
+	color: white;
+	font-family: monospace;
+	font-weight: 500px;
+	margin: auto;
+}
+div#mapmain{
+	width: 700;
+	height: 310;
+	margin: 10px 0px 0px 0px;
+}
+img#map{
+	width: 694px;
+	height: 400px;
+	margin: 50px 448px 0px 448px;
+}
+div#pie{
+	background-color: black;
+	width: 1690px;
+	height: 190px;
+	margin: 0px 5px 0px 5px;
+}
+table#primera{
+	height: 190px;
+	width: 563px;
+}
+table#segunda{
+	height: 190px;
+	width: 563px;
+	margin: -190px 0px 0px 563px;
+}
+table#tercera{
+	height: 190px;
+	width: 563px;
+	margin: -190px 0px 0px 1126px
+}
+p#t1{
+	font-size: 15px;
+	color: #fe502d;
+	margin: 5px 0px 0px 0px;
+}
+p#t2{
+	font-size: 15px;
+	color: #b4aead;
+}
+p#tt{
+	font-size: 25px;
+	color: #b4aead;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
