@@ -38,13 +38,6 @@
 					</td>
 				</tr>
 			</table>
-			<table id="acerca"> <!---->
-				<tr> 
-					<td>
-						<a href="acerca.html"> Acerca de </a>
-					</td>
-				</tr>
-			</table>
 			<table id="contactanos"> <!---->
 				<tr> 
 					<td>
@@ -121,7 +114,7 @@
 						<td align="center">
 							<img id="carne" src="imagenes/filete.png">
 							<h2>Filete</h2>
-							<h6>250gr. de filete asado con una guarnición de cebollines, tomatines y champiñones, precio, $450.00</h6>
+							<h6>250gr. de filete asado con cebollines, tomatines y champiñones, precio, $450.00</h6>
 						</td>
 					</tr>
 				</table>
@@ -136,9 +129,9 @@
 				</table>	
 			</div>
 			<div id="menubebidas"> Bebidas
-				<table id="bebidas"> <!---->
+				<table id="bebidas"> <!--Tabla que contendra la primera hilera de columnas de las bebidas-->
 					<tr> 
-						<td align="center">
+						<td align="center"> <!--Utilice el align para poder centrar la imagen dentro de la tabla-->
 							<img id="bebida" src="imagenes/cerveza.png">
 							<h2>Cerveza</h2>
 							<h6>Cerveza de su elección de 500ml en tarro, botella o lata, precio, $60.00</h6>
@@ -170,14 +163,49 @@
 					</tr>
 				</table>	
 			</div>
+			<div id="menupostres"> Postres
+				<table id="postres"> <!---->
+					<tr> 
+						<td align="center">
+							<img id="postre" src="imagenes/paydequesocostra.png">
+							<h2>Pay de queso con costra</h2>
+							<h6>Rebanada de pay de queso con costra de ralladura de canela, precio, $60.00</h6>
+						</td>
+						<td align="center">
+							<img id="postre" src="imagenes/payquesocrema.png">
+							<h2>Pay de queso crema</h2>
+							<h6>Rebanada de pay de queso crema, precio, $50.00</h6>
+						</td>
+						<td align="center">
+							<img id="postre" src="imagenes/pastel3leches.png">
+							<h2>Pastes de 3 leches</h2>
+							<h6>Rebanada de pastel de 3 leches, precio, $60.00</h6>
+						</td>	
+					</tr>
+				</table>	
+				<table id="postres2" align="center"> <!---->
+					<tr> 
+						<td align="center">
+							<img id="postre" src="imagenes/tiramisu.png">
+							<h2>Tiramisu</h2>
+							<h6>Tiramisu $80.00</h6>
+						</td>
+						<td align="center">
+							<img id="postre" src="imagenes/mousse.png">
+							<h2>Mousse de chocolate</h2>
+							<h6>Mousse de chocolate, precio, $80.00</h6>
+						</td>	
+					</tr>
+				</table>	
+			</div>
 		</div>
 		<div id="pie"> <!--Otro div que contendra las tablas para el pie de pagina-->
 			<table id="primera">
 				<tr> 
 					<td>
-						<a href="contacto.html"> <!-- Otra vez ocupe un <a> para contacto para que al presionarlo este lo redireccione a la pestaña de contacto-->
+						<p id="tt">
 							Contacto
-						</a>
+						</p>
 						<p id="t1"> <!-- Las que tengan t1 como "id" se mostrarar de color #fe502d-->
 							Numero telefonico: 
 						</p>

@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="estilosgaleria.css">
 </head>
 <body>
-	<div id="fondo">
+	<div id="fondo"> <!--De aqui a la linea 54 es para la barra principal-->
 		<div id="barraup">
 			<img id="logo" src="imagenes/logo.png"> <!---->
 			<table id="inicio"> <!--utilize 6 tablas para poder plasmar de manera ordenada la barra principal-->
@@ -27,7 +27,7 @@
 			<table id="galeria"> <!---->
 				<tr> 
 					<td>
-						<a href="galeria.html"> Galeria </a>
+						<a id="gal" href="galeria.html"> Galeria </a>
 					</td>
 				</tr>
 			</table>
@@ -38,13 +38,6 @@
 					</td>
 				</tr>
 			</table>
-			<table id="acerca"> <!---->
-				<tr> 
-					<td>
-						<a href="acerca.html"> Acerca de </a>
-					</td>
-				</tr>
-			</table>
 			<table id="contactanos"> <!---->
 				<tr> 
 					<td>
@@ -52,8 +45,130 @@
 					</td>
 				</tr>
 			</table>
+		</div> <!--Div para colocar la tabla de la galeria-->
+		<div id="fondo2">
+		<br> Galería
+			<div id="tab"> 
+				<table id="galeria2"> <!--Tabla que contendra las imagenes de la galeria-->
+					<tr> 
+						<br>
+						<p>Locación:</p>
+						<td align="center"> <!--Utilice el align para poder centrar la imagen dentro de la tabla-->
+							<img id="gale" src="imagenes/porfuera.png">
+						</td>
+						<td align="center">
+							<img id="gale" src="imagenes/trasera.png">
+						</td>
+						<td align="center">
+							<img id="gale" src="imagenes/noche.png">
+						</td>
+						<td align="center">
+							<img id="gale" src="imagenes/pano.png">
+						</td>	
+					</tr>
+				</table>
+				<table id="galeria2">
+					<p>Alimentos:</p>
+					<tr> 
+						<td align="center"> <!--Utilice el align para poder centrar la imagen dentro de la tabla-->
+							<img id="gale2" src="imagenes/alimentos1.png">
+						</td>
+						<td align="center">
+							<img id="gale2" src="imagenes/elotes.png">
+						</td>
+						<td align="center">
+							<img id="gale2" src="imagenes/alimentos2.png">
+						</td>
+						<td align="center">
+							<img id="gale2" src="imagenes/alimentos3.png">
+						</td>	
+					</tr>
+				</table>
+				<table id="galeria2">
+					<p>Visitas:</p>
+					<tr> 
+						<td align="center"> <!--Utilice el align para poder centrar la imagen dentro de la tabla-->
+							<img id="gale3" src="imagenes/bbbb.png">
+						</td>
+						<td align="center">
+							<img id="gale3" src="imagenes/angel.png">
+						</td>
+						<td align="center">
+						</td>
+						<td align="center">
+						</td>	
+					</tr>
+				</table>
+			</div>
 		</div>
-		<div id="fondo2"> 
+
+		<div id="pie"> <!--Otro div que contendra las tablas para el pie de pagina-->
+			<table id="primera">
+				<tr> 
+					<td>
+						<p id="tt">
+							Contacto
+						</p>
+						<p id="t1"> <!-- Las que tengan t1 como "id" se mostrarar de color #fe502d-->
+							Numero telefonico: 
+						</p>
+						<p id="t2"> <!-- Las que tengan t2 como "id" se mostrarar de color #b4aead-->
+							4725823959
+						</p>
+						<p id="t1">
+							Correo electronico: 
+						</p>
+						<p id="t2">
+							neriandgrill@gmail.com
+						</p>		
+					</td>
+				</tr>
+			</table>
+			<table id="segunda">
+				<tr> 
+					<td>
+						<p id="tt"> <!-- Las que tengan tt como "id" tendra los mismos atributos que <a>-->
+							Horario y ubicacion
+						</p>
+						<p id="t1">
+							Horario 
+						</p>
+						<p id="t2">
+							11:00 am a 5:00 pm de lunes a sabado y de 11:00 am a 9:00 pm los domingos.
+						</p>
+						<p id="t1">
+							Ubicacion
+						</p>
+						<p id="t2">
+							Av. Hacienda de Rancho Seco S/N, plazas de aragon, Nezahualcoyotl, Méx.
+						</p>
+					</td>
+				</tr>
+			</table>
+			<table id="tercera">
+				<tr> 
+					<td>
+						<p id="t1">
+							Alumno
+						</p>
+						<p id="t2">
+							Axel Neri neriuxx
+						</p>
+						<p id="t1">
+							Materia
+						</p>
+						<p id="t2">
+							Programación web.
+						</p>
+						<p id="t1">
+							Universidad
+						</p>
+						<p id="t2">
+							Facultad de Estudios Superiores Aragón.
+						</p>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 </body>

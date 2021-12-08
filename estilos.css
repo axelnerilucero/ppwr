@@ -18,31 +18,25 @@ table#inicio{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -100px 1300px 0px 200px;
+	margin: -100px 1300px 0px 300px;
 }
 table#menu{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -40px 0px 0px 450px;
+	margin: -40px 0px 0px 550px;
 }
 table#galeria{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -40px 0px 0px 700px;
+	margin: -40px 0px 0px 800px;
 }
 table#promociones{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -40px 0px 0px 950px;
-}
-table#acerca{
-	width: 250px;
-	height: 40px;
-	color: white;
-	margin: -40px 0px 0px 1200px;
+	margin: -40px 0px 0px 1050px;
 }
 a{
 	text-decoration: none;
@@ -216,15 +210,18 @@ table#tercera{
 	margin: -190px 0px 0px 1126px
 }
 p#t1{
+	text-align: left;
 	font-size: 15px;
 	color: #fe502d;
 	margin: 5px 0px 0px 0px;
 }
 p#t2{
+	text-align: left;
 	font-size: 15px;
 	color: #b4aead;
 }
 p#tt{
+	text-align: left;
 	font-size: 25px;
 	color: #b4aead;
 	margin-top: 0px;

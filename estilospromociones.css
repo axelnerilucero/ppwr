@@ -18,35 +18,36 @@ table#inicio{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -100px 1300px 0px 200px;
+	margin: -100px 1300px 0px 300px;
 }
 table#menu{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -40px 0px 0px 450px;
+	margin: -40px 0px 0px 550px;
 }
 table#galeria{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -40px 0px 0px 700px;
+	margin: -40px 0px 0px 800px;
 }
 table#promociones{
 	width: 250px;
 	height: 40px;
 	color: white;
-	margin: -40px 0px 0px 950px;
+	margin: -40px 0px 0px 1050px;
 }
-table#acerca{
-	width: 250px;
-	height: 40px;
-	color: white;
-	margin: -40px 0px 0px 1200px;
-}
+
 a{
 	text-decoration: none;
 	color: #b4aead;
+	font-size: 25px;
+	font-family: monospace;
+}
+a#pro{
+	text-decoration: none;
+	color: #fe502d;
 	font-size: 25px;
 	font-family: monospace;
 }
@@ -75,4 +76,45 @@ div#fondo2{
 	width: 1690px;
 	height: 3000px;
 	margin: auto ; <!---->
+}
+
+
+
+div#pie{
+	background-color: black;
+	width: 1690px;
+	height: 190px;
+	margin: 10px 5px 0px 5px;
+}
+table#primera{
+	height: 190px;
+	width: 563px;
+}
+table#segunda{
+	height: 190px;
+	width: 563px;
+	margin: -190px 0px 0px 563px;
+}
+table#tercera{
+	height: 190px;
+	width: 563px;
+	margin: -190px 0px 0px 1126px
+}
+p#t1{
+	text-align: left;
+	font-size: 15px;
+	color: #fe502d;
+	margin: 5px 0px 0px 0px;
+}
+p#t2{
+	text-align: left;
+	font-size: 15px;
+	color: #b4aead;
+}
+p#tt{
+	text-align: left;
+	font-size: 25px;
+	color: #b4aead;
+	margin-top: 0px;
+	margin-bottom: 5px;
 }
