@@ -14,6 +14,7 @@ img#logo{
 	width: 150px;
 	margin: 1px 0px 1px 1px;
 }
+/* tablas que serviran para las secciones de la cabecera */
 table#inicio{
 	width: 250px;
 	height: 40px;
@@ -38,7 +39,7 @@ table#promociones{
 	color: white;
 	margin: -40px 0px 0px 1050px;
 }
-a{
+a{ /* A las etiequetas a les quita la linea de abajo y las hace de color #b4aead */
 	text-decoration: none;
 	color: #b4aead;
 	font-size: 25px;
@@ -77,6 +78,7 @@ div#fondo2{
 	height: 1450px;
 	margin: auto ; <!---->
 }
+/*Aqui comienzan los atributos para la descripcion*/
 p#quien{
 	font-size: 20px;
 	color: #fe502d;
@@ -121,6 +123,7 @@ div#novedades{
 	width: 1590px;
 	margin: 30px 50px 0px 50px;
 }
+/* con la imagen de un mapa y usando usemap logro brindar la direccion correcta */
 table#amp{
 	width: 496px;
 	height: 220px;

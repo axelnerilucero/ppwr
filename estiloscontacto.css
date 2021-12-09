@@ -1,7 +1,7 @@
 div#fondo{
 	background-color:  gainsboro;
 	width: 1700px;
-	height: 3000px;
+	height: 900px;
 	margin: auto ; <!---->
 }
 div#barraup{
@@ -75,10 +75,51 @@ a#con:hover{
 div#fondo2{
 	background-color: whitesmoke;
 	width: 1690px;
-	height: 3000px;
-	margin: auto ; <!---->
+	height: 600px;
+	margin: 0px 5px 0px 5px; <!---->
 }
-
+div#contenedor{
+	width: 1690px;
+	height: 400px;
+	background-color: whitesmoke;
+	margin: -600px 5px 0px 5px;
+}
+div#telefono{
+	font-size: 35px;
+	color: white;
+	background-color: #fe502d;
+	height: 150px;
+	width: 600px;
+	margin: 200px 0px 0px 150px;
+	border-radius: 10px 10px 10px 10px;
+}
+div#correo{
+	font-size: 35px;
+	color: white;
+	background-color: #fe502d;
+	height: 150px;
+	width: 600px;
+	margin: -150px 150px 0px 940px;
+	border-radius: 10px 10px 10px 10px;
+}
+div#telefono:hover{
+	font-size: 35px;
+	color: white;
+	background-color: #fe502d;
+	height: 200px;
+	width: 650px;
+	margin: 200px 0px 0px 50px;
+	border-radius: 25px 25px 25px 25px;
+}
+div#correo:hover{
+	font-size: 35px;
+	color: white;
+	background-color: #fe502d;
+	height: 200px;
+	width: 650px;
+	margin: -150px 50px 0px 990px;
+	border-radius: 25px 25px 25px 25px;
+}
 div#pie{
 	background-color: black;
 	width: 1690px;
